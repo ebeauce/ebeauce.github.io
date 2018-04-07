@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome !\n\n\nI am a graduate student of the Geophysics Program in the Earth, Atmospheric and Planetary Sciences (\nEAPS\n) department at MIT.\n\n\nMy work, supervised by \nMichel Campillo\n, focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.\n\n\nOther Websites\n\n\n\n\nResearch Gate\n\n\nGitHub\n\n\nGoogle Scholar", 
+            "text": "Welcome !\n\n\nI am a graduate student of the Geophysics Program in the Earth, Atmospheric and Planetary Sciences (\nEAPS\n) department at MIT.\n\n\nMy work, supervised by \nMichel Campillo\n, focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.\n\n\nOther Websites\n\n\n\n\nResearch Gate\n\n\nGitHub\n\n\nGoogle Scholar\n\n\n\n\nContact Information\n\n\nebeauce@mit.edu\n\n\n77 Massachusetts Avenue\n\n\nBuilding 54 - office 527\n\n\nCambridge, MA, 02139\n\n\nUSA", 
             "title": "Home"
         }, 
         {
@@ -14,6 +14,11 @@
             "location": "/#other-websites", 
             "text": "Research Gate  GitHub  Google Scholar", 
             "title": "Other Websites"
+        }, 
+        {
+            "location": "/#contact-information", 
+            "text": "ebeauce@mit.edu  77 Massachusetts Avenue  Building 54 - office 527  Cambridge, MA, 02139  USA", 
+            "title": "Contact Information"
         }, 
         {
             "location": "/about/", 
