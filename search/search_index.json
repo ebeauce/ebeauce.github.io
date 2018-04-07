@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Welcome !\n\n\nI am a graduate student of the Geophysics Program of the Earth, Atmospheric and Planetary Sciences (\nEAPS\n) at MIT.\n\n\nMy work, supervised by \nMichel Campillo\n, focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.\n\n\nOther Websites\n\n\n\n\nResearch Gate\n\n\nGitHub\n\n\nGoogle Scholar", 
+            "text": "Welcome !\n\n\nI am a graduate student of the Geophysics Program in the Earth, Atmospheric and Planetary Sciences (\nEAPS\n) department at MIT.\n\n\nMy work, supervised by \nMichel Campillo\n, focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.\n\n\nOther Websites\n\n\n\n\nResearch Gate\n\n\nGitHub\n\n\nGoogle Scholar", 
             "title": "Home"
         }, 
         {
             "location": "/#welcome", 
-            "text": "I am a graduate student of the Geophysics Program of the Earth, Atmospheric and Planetary Sciences ( EAPS ) at MIT.  My work, supervised by  Michel Campillo , focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.", 
+            "text": "I am a graduate student of the Geophysics Program in the Earth, Atmospheric and Planetary Sciences ( EAPS ) department at MIT.  My work, supervised by  Michel Campillo , focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.", 
             "title": "Welcome !"
         }, 
         {
