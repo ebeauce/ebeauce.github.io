@@ -26,56 +26,48 @@
     </head>
 
     <body class="homepage">
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href=".">Eric Beaucé</a>
-                </div>
+                <a class="navbar-brand" href=".">Eric Beaucé</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href=".">Home</a>
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
                             </li>
-                            <li >
-                                <a href="about/">About Me</a>
+                            <li class="navitem">
+                                <a href="about/" class="nav-link">About Me</a>
                             </li>
-                            <li >
-                                <a href="publications/">Publications</a>
+                            <li class="navitem">
+                                <a href="publications/" class="nav-link">Publications</a>
                             </li>
-                            <li >
-                                <a href="softwares/">Softwares</a>
+                            <li class="navitem">
+                                <a href="softwares/" class="nav-link">Softwares</a>
                             </li>
-                            <li >
-                                <a href="material/">Material</a>
+                            <li class="navitem">
+                                <a href="material/" class="nav-link">Material</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="disabled">
-                                <a rel="next" >
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="about/">
+                            <li class="nav-item">
+                                <a rel="next" href="about/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -85,19 +77,39 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome">Welcome !</a></li>
-            <li><a href="#other-websites">Other Websites</a></li>
-            <li><a href="#contact-information">Contact Information</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
-<p><img src="pictures/profile_pic.jpg" width="30%"></p>
-<h1 id="welcome">Welcome !</h1>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#welcome" class="nav-link">Welcome!</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#other-websites" class="nav-link">Other Websites</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#contact-information" class="nav-link">Contact Information</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><img src="pictures/me_V1.JPG" width="30%"></p>
+<h1 id="welcome">Welcome!</h1>
 <p>I am a graduate student of the Geophysics Program in the Earth, Atmospheric and Planetary Sciences (<a href="https://eapsweb.mit.edu/">EAPS</a>) department at MIT.</p>
-<p>My work, supervised by <a href="https://scholar.google.com/citations?user=ZCRP01AAAAAJ&amp;hl=fr&amp;oi=ao">Michel Campillo</a>, focuses on the development of methods for automatic earthquake detection. I am particularly interested in studying how the large amount of seismic data can be processed with modern techniques emerging from machine learning.</p>
+<p>My work, supervised by <a href="https://scholar.google.com/citations?user=ZCRP01AAAAAJ&amp;hl=fr&amp;oi=ao">Michel Campillo</a>, focuses on observing the collective behavior of earthquakes to better understand faults and fault structures. A large part of this work is dedicated to developing the methods necessary for identifying the many small earthquakes in our study regions, namely automated earthquake detection and location methods. As seismology is now entering the realm of data science, because of the large volumes of data that are now available, I also explore the possibilities offered by machine learning algorithms and see if we can do better than traditional techniques.</p>
 <h2 id="other-websites">Other Websites</h2>
 <ul>
 <li><a href="https://www.researchgate.net/profile/Eric_Beauce">Research Gate</a></li>
@@ -110,6 +122,7 @@
 <p>Building 54 - office 527</p>
 <p>Cambridge, MA, 02139</p>
 <p>USA</p></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -123,21 +136,21 @@
         <script src="js/base.js" defer></script>
         <script src="search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -146,12 +159,12 @@
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
@@ -191,6 +204,6 @@
 </html>
 
 <!--
-MkDocs version : 1.0.4
-Build Date UTC : 2020-01-10 15:03:52
+MkDocs version : 1.1.2
+Build Date UTC : 2020-07-28 16:24:49.422588+00:00
 -->
