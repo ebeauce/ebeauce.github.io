@@ -1,6 +1,11 @@
 Publications
 ************
 
+2023
+----
+
+* **Eric Beaucé**, Piero Poli, Felix Waldhauser, Benjamin Holtzman, Christopher H. Scholz. Enhanced Tidal Sensitivity of Seismicity Before the 2019 Magnitude 7.1 Ridgecrest, California Earthquake. *Geophysical Research Letters*. DOI: `https://doi.org/10.1029/2023GL104375 <https://doi.org/10.1029/2023GL104375>`_
+
 2022
 ----
 * **Eric Beaucé**, Robert D. van der Hilst, Michel Campillo. Microseismic Constraints on the Mechanical State of the North Anatolian Fault Zone 13 Years After the 1999 M7.4 Izmit Earthquake. *Journal of Geophysical Research: Solid Earth*. DOI: `https://doi.org/10.1029/2022JB024416 <https://doi.org/10.1029/2022JB024416>`_
