@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Navigation menu styles */
+.menu {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Publications list styles */
+ul, ol {
+    list-style: none; /* Remove default list-style */
+    padding-left: 20px; /* Add some left padding for the dash */
+}
+
+ul li::before,
+ol li::before {
+    content: "-"; /* Unicode for em dash character */
+    display: inline-block;
+    width: 1em; /* Adjust the width as needed */
+    margin-left: -1em; /* Shift the dash back by the width of the dash */
+}
+
+li {
+    margin-bottom: 1px;
+}
+
+/* Profile picture styles */
+.profile-picture {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px; /* Set the width of the container */
+    height: 250px; /* Set the height of the container */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.profile-picture img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Link styles */
+a {
+    color: #0074d6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
