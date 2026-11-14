@@ -42,6 +42,27 @@ h2 {
     font-size: 1.4em;
 }
 
+.publication-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-bottom: 16px;
+}
+
+.publications-page .container > ul > li {
+    margin-bottom: 14px;
+}
+
+.publication-journal {
+    color: #555;
+}
+
+.publication-doi {
+    margin-left: 4px;
+    white-space: nowrap;
+    font-size: 0.9em;
+}
+
 .news-section {
     clear: both;
 }
