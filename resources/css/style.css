@@ -42,6 +42,34 @@ h2 {
     font-size: 1.4em;
 }
 
+.news-section {
+    clear: both;
+}
+
+.news-item + .news-item {
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid #e3eaf6;
+}
+
+.news-item h3 {
+    margin: 0 0 4px;
+    font-size: 1.05em;
+}
+
+.news-item p {
+    margin-bottom: 4px;
+}
+
+.news-meta {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.news-more {
+    margin-top: 12px;
+}
+
 /* Navigation menu styles */
 
 .menu {
