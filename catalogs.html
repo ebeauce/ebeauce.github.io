@@ -6,52 +6,74 @@
     <title>Eric Beaucé - Earthquake Catalogs</title>
     <link rel="stylesheet" href="./resources/css/style.css">
 </head>
-<body>
+<body class="catalogs-page">
     <header>
         <h1>Earthquake Catalogs</h1>
     </header>
     <script id="replace_with_navbar" src="nav.js"></script>
-    <div class="container">
-        Here is a compilation of the earthquake catalogs that my collaborators and I have built with the <a href="https://github.com/ebeauce/Seismic_BPMF">BPMF</a> workflow.
+    <main class="container">
+        <p class="catalog-intro">A collection of earthquake catalogs built with collaborators using the <a href="https://github.com/ebeauce/Seismic_BPMF">BPMF</a> workflow.</p>
 
-        <h2>Ridgecrest, California, 2008-2024 <a href="https://doi.org/10.1785/0120260047">(Beaucé et al. 2026)</a></h2>
+        <nav class="catalog-nav" aria-label="Jump to catalog">
+            <a href="#ridgecrest-2024">Ridgecrest 2008-2024</a>
+            <a href="#new-jersey">New Jersey 2024</a>
+            <a href="#ridgecrest-2019">Ridgecrest 2009-2019</a>
+            <a href="#north-anatolian-fault">North Anatolian Fault</a>
+            <a href="#western-alps">Western Alps</a>
+        </nav>
 
-        <p>Catalog: <a href="https://zenodo.org/records/18404896">https://zenodo.org/records/18404896</a> (built with BPMF <a href=https://doi.org/10.5281/zenodo.14838292>v2.0.0beta2</a>).</p>
+        <section class="catalog-entry" id="ridgecrest-2024">
+            <h2>Ridgecrest, California, 2008-2024 <a href="https://doi.org/10.1785/0120260047">(Beaucé et al. 2026)</a></h2>
+            <p>Catalog built with BPMF <a href="https://doi.org/10.5281/zenodo.14838292">v2.0.0beta2</a>.</p>
+            <p class="catalog-links">
+                <a href="https://zenodo.org/records/18404896">Download catalog</a>
+            </p>
+        </section>
 
-        <h2>New Jersey, US, 2024 seismicity <a href="https://doi.org/10.1029/2024GL113598">(Beaucé et al. 2025)</a></h2>
+        <section class="catalog-entry" id="new-jersey">
+            <h2>New Jersey, US, 2024 seismicity <a href="https://doi.org/10.1029/2024GL113598">(Beaucé et al. 2025)</a></h2>
+            <p>Aftershock catalog built with BPMF <a href="https://doi.org/10.5281/zenodo.14838292">v2.0.0beta2</a>.</p>
+            <p class="catalog-links">
+                <a href="https://doi.org/10.5281/zenodo.14058325">Download aftershock catalog</a>
+                <a href="/interactive_catalogs/map_NJ_BPMF_catalog.html">Explore BPMF map</a>
+                <a href="/interactive_catalogs/map_NJ_BPMF_HYPODD_catalog.html">Explore BPMF + HYPODD map</a>
+            </p>
+        </section>
 
-        <p>Aftershock catalog: <a href="https://doi.org/10.5281/zenodo.14058325">https://doi.org/10.5281/zenodo.14058325</a> (built with BPMF <a href=https://doi.org/10.5281/zenodo.14838292>v2.0.0beta2</a>).</p>
+        <section class="catalog-entry" id="ridgecrest-2019">
+            <h2>Ridgecrest, California, 2009-2019 <a href="https://doi.org/10.1029/2023GL104375">(Beaucé et al. 2023)</a></h2>
+            <h3>Latest version (v2.0.1)</h3>
+            <p>Revised catalog after further cleaning of the original, built with BPMF <a href="https://doi.org/10.5281/zenodo.14838292">v2.0.0beta2</a>.</p>
+            <p class="catalog-links">
+                <a href="https://zenodo.org/records/8393318">Download latest catalog</a>
+            </p>
+            <h3>Original version (v1.0.0)</h3>
+            <p>Built with BPMF <a href="https://doi.org/10.5281/zenodo.8137008">v2.0.0beta</a>.</p>
+            <p class="catalog-links">
+                <a href="https://zenodo.org/records/8127880">Download original catalog</a>
+            </p>
+        </section>
 
-        <p>Explore the BPMF catalog with an interactive map: <a href="/interactive_catalogs/map_NJ_BPMF_catalog.html">click here</a>.
-            Explore the BPMF+HYPODD (double-difference relocation) catalog: <a href="/interactive_catalogs/map_NJ_BPMF_HYPODD_catalog.html">click here</a>.</p>
+        <section class="catalog-entry" id="north-anatolian-fault">
+            <h2>North Anatolian Fault, 2012-2013 <a href="https://doi.org/10.1029/2022JB024416">(Beaucé et al. 2022)</a></h2>
+            <p>Built with a prototype version of BPMF (<a href="https://doi.org/10.5281/zenodo.6780316">v1.0.1</a>).</p>
+            <p class="catalog-links">
+                <a href="https://zenodo.org/records/6362973">Download catalog</a>
+            </p>
+        </section>
 
-        <h2>Ridgecrest, California, 2009-2019 <a href="https://doi.org/10.1029/2023GL104375">(Beaucé et al. 2023)</a></h2>
-            <h3>-- Latest version (v2.0.1)</h3>
-                <p>
-                    Revised catalog after further cleaning up the original catalog: <a href="https://zenodo.org/records/8393318">https://zenodo.org/records/8393318</a> (built with BPMF <a href=https://doi.org/10.5281/zenodo.14838292>v2.0.0beta2</a>).
-                </p>
-
-            <h3>-- Original version (v1.0.0)</h3>        
-                <p>
-                    Original catalog: <a href="https://zenodo.org/records/8127880">https://zenodo.org/records/8127880</a> (built with BPMF <a href=https://doi.org/10.5281/zenodo.8137008>v2.0.0beta</a>).
-                </p>
-
-
-        <h2>North Anatolian Fault, 2012-2013 <a href="https://doi.org/10.1029/2022JB024416">(Beaucé et al. 2022)</a> </h2>
-            <p>This catalog was built with a proto version of BPMF. It can be found at <a href="https://zenodo.org/records/6362973">https://zenodo.org/records/6362973</a> (built with BPMF <a href="https://doi.org/10.5281/zenodo.6780316">v1.0.1</a>).</p>
-
-        <h2>Western Alps, 2012-2013 <a href="https://doi.org/10.1029/2019JB018110">(Beaucé et al. 2019)</a></h2>
-            <p>This catalog was built with a proto version of BPMF. Catalogs are given as h5 files.</p>
-            <ul>
-                <li>
-                    Origin times, locations and P/S-wave travel times given per template:
-                    <a href="https://www.dropbox.com/s/8vt4oxq0hxjdxlo/catalog_CIFALPS_EB_et_al_2019_per_template.h5?dl=0">catalog_Beauce_et_al_2019_per_template.h5</a>
-                </li>
-                <li>
-                    Origin times, locations and P/S-wave travel times of the 18,754 earthquakes presented in Beaucé et al. 2019:
-                    <a href="https://www.dropbox.com/s/wiaiyd9htgi1j0g/catalog_CIFALPS_EB_et_al_2019.h5?dl=0">catalog_Beauce_et_al_2019.h5</a>
-                </li>
-            </ul>
-    </div>
+        <section class="catalog-entry" id="western-alps">
+            <h2>Western Alps, 2012-2013 <a href="https://doi.org/10.1029/2019JB018110">(Beaucé et al. 2019)</a></h2>
+            <p>Built with a prototype version of BPMF. Catalogs are provided as HDF5 files.</p>
+            <p class="catalog-file">
+                Origin times, locations and P/S-wave travel times given per template:
+                <a href="https://www.dropbox.com/s/8vt4oxq0hxjdxlo/catalog_CIFALPS_EB_et_al_2019_per_template.h5?dl=0" aria-label="Download catalog_Beauce_et_al_2019_per_template.h5">Download per-template HDF5 catalog</a>
+            </p>
+            <p class="catalog-file">
+                Origin times, locations and P/S-wave travel times of the 18,754 earthquakes presented in Beaucé et al. 2019:
+                <a href="https://www.dropbox.com/s/wiaiyd9htgi1j0g/catalog_CIFALPS_EB_et_al_2019.h5?dl=0" aria-label="Download catalog_Beauce_et_al_2019.h5">Download HDF5 catalog</a>
+            </p>
+        </section>
+    </main>
 </body>
 </html>

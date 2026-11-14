@@ -101,6 +101,47 @@ h2 {
     font-size: 0.95em;
 }
 
+.catalog-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin-bottom: 24px;
+}
+
+.catalog-nav a,
+.catalog-links a,
+.catalog-file a {
+    display: inline-block;
+    padding: 3px 8px;
+    border: 1px solid #e3eaf6;
+    border-radius: 3px;
+}
+
+.catalog-entry + .catalog-entry {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid #e3eaf6;
+}
+
+.catalog-entry h2 {
+    margin-top: 0;
+}
+
+.catalog-entry h3 {
+    margin: 14px 0 4px;
+    font-size: 1.05em;
+}
+
+.catalog-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+}
+
+.catalog-file + .catalog-file {
+    margin-top: 10px;
+}
+
 .news-section {
     clear: both;
 }
