@@ -208,6 +208,36 @@ li {
     margin-bottom: 1px;
 }
 
+.tidequakes-overview {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tidequakes-logo {
+    display: block;
+    flex: 0 0 200px;
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+.tidequakes-overview p {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .tidequakes-overview {
+        flex-direction: column;
+    }
+
+    .tidequakes-logo {
+        flex-basis: auto;
+        width: 100%;
+        max-width: 220px;
+    }
+}
+
 /* Profile picture styles */
 
 .profile-picture {
